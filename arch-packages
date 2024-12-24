@@ -1,0 +1,1 @@
+sudo pacman -S sway wmenu waybar otf-comicshanns-nerd mpv mpd lf zsh neomutt pipewire pipewire-pulse plusemixer pass newsboat ncmpcpp neovim swayimg swaybg htop dunst wget zathura foot go && git clone https://aur.archlinux.org/yay && cd yay && makepkg -si && yay -S librewolf-bin
