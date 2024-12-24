@@ -1,0 +1,3 @@
+# vim: filetype=sh
+[ -n "cac" ] && export cac="/home/yash/.cache" 
+[ -n "bf" ] && export bf="/home/yash/.config/shell/bm-files" 

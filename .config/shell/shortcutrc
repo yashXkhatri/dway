@@ -1,0 +1,3 @@
+# vim: filetype=sh
+alias cac="cd /home/yash/.cache && ls -A" \
+bf="$EDITOR /home/yash/.config/shell/bm-files" \

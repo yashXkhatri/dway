@@ -1,0 +1,2 @@
+hash -d cac=/home/yash/.cache 
+hash -d bf=/home/yash/.config/shell/bm-files 

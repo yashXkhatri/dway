@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Define options
+options="Logout\nShutdown\nRestart\nSleep"
+
+# Use wmenu to display options
+choice=$(echo -e "$options" | wmenu -f "ComicShannsMono Nerd Font 14")
+
+# Execute the chosen option
+case "$choice" in
+    "Logout")
+        swaymsg exit
+        ;;
+    "Shutdown")
+        systemctl poweroff
+        ;;
+    "Restart")
+        systemctl reboot
+        ;;
+    "Sleep")
+        systemctl suspend
+        ;;
+    *)
+        exit 1
+        ;;
+esac
